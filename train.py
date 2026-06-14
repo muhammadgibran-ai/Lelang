@@ -50,17 +50,17 @@ def clean_location(loc_str):
         return "Lainnya"
 
 def build_model(input_dim):
-    # MLP JST model architecture
+    # MLP JST model architecture — Good Fit (best config)
     model = keras.Sequential([
         layers.Input(shape=(input_dim,)),
         layers.Dense(128, activation='relu',
-                     kernel_regularizer=regularizers.l2(0.0003)),
-        layers.Dropout(0.1),
+                     kernel_regularizer=regularizers.l2(0.0005)),
+        layers.Dropout(0.15),
         layers.Dense(64, activation='relu',
-                     kernel_regularizer=regularizers.l2(0.0003)),
-        layers.Dropout(0.05),
+                     kernel_regularizer=regularizers.l2(0.0005)),
+        layers.Dropout(0.08),
         layers.Dense(32, activation='relu',
-                     kernel_regularizer=regularizers.l2(0.0003)),
+                     kernel_regularizer=regularizers.l2(0.0005)),
         layers.Dense(1, activation='linear')
     ])
 
@@ -90,19 +90,23 @@ def run_training():
     df['model_clean'] = df['model'].apply(clean_model_name)
     df['location_clean'] = df['location'].apply(clean_location)
     
-    # Group minor models
+    # Ordinal encode grade (A=5 best → F=0 worst)
+    grade_map = {'A': 5, 'B': 4, 'C': 3, 'D': 2, 'E': 1, 'F': 0}
+    df['grade_ordinal'] = df['grade'].map(grade_map).fillna(0)
+    
+    # Group minor models — moderate threshold to balance dimensionality
     model_counts = df['model_clean'].value_counts()
-    top_models = model_counts[model_counts >= 2].index.tolist()
+    top_models = model_counts[model_counts >= 3].index.tolist()
     df['model_clean'] = df['model_clean'].apply(lambda x: x if x in top_models else 'Lainnya')
     
-    # Categorical Columns (including grade!)
-    cat_cols = ['brand', 'model_clean', 'transmission', 'location_clean', 'fuel_type', 'grade']
+    # Categorical Columns (grade is NOW ordinal-scaled, not one-hot)
+    cat_cols = ['brand', 'model_clean', 'transmission', 'location_clean', 'fuel_type']
     df_encoded = pd.get_dummies(df, columns=cat_cols, drop_first=False)
     
     dummy_columns = [col for col in df_encoded.columns if any(col.startswith(cat + "_") for cat in cat_cols)]
     
-    # Scale numerical features
-    num_cols = ['age', 'mileage']
+    # Scale numerical features (now includes grade_ordinal)
+    num_cols = ['age', 'mileage', 'grade_ordinal']
     scaler = StandardScaler()
     X_num = scaler.fit_transform(df_encoded[num_cols])
     X_cat = df_encoded[dummy_columns].values.astype(np.float32)
@@ -121,7 +125,7 @@ def run_training():
     
     early_stopping = keras.callbacks.EarlyStopping(
         monitor='val_loss',
-        patience=25,
+        patience=30,
         restore_best_weights=True
     )
 
@@ -138,7 +142,7 @@ def run_training():
         X_train, y_train,
         validation_split=0.15,
         epochs=300,
-        batch_size=16,
+        batch_size=32,
         callbacks=[early_stopping, reduce_lr],
         verbose=1
     )
@@ -191,7 +195,8 @@ def run_training():
         "top_models": top_models,
         "all_dummy_columns": list(df_encoded.columns),
         "clean_model_name": clean_model_name,
-        "clean_location": clean_location
+        "clean_location": clean_location,
+        "grade_map": grade_map
     }
     
     preprocessors_path = os.path.join(project_dir, "preprocessors.pkl")

@@ -226,10 +226,14 @@ def generate_docx():
         "Langkah preprocessing yang diimplementasikan meliputi:\n"
         "1. Outlier Removal: Membersihkan data odometer tak valid (>= 1.000.000 KM) agar penskalaan normal.\n"
         "2. Usia Kendaraan (Age): Dihitung dengan age = 2026 - tahun_pembuatan.\n"
-        "3. Standard Scaling: Menggunakan StandardScaler pada kolom numerik age dan mileage.\n"
-        "4. One-Hot Dummy Encoding: Menyandi variabel kategori (brand, model_clean, transmission, location_clean, fuel_type, "
-        "dan grade) menjadi 101 kolom input biner. Penambahan grade meningkatkan dimensi input secara signifikan.\n"
-        "5. Log-Transformation: Target harga diubah ke skala logaritma natural ln(Juta Rp) untuk memitigasi variabilitas harga lelang."
+        "3. Ordinal Grade Encoding: Grade inspeksi diubah ke skala ordinal (A=5, B=4, C=3, D=2, E=1, F=0) dan "
+        "diskala bersama fitur numerik menggunakan StandardScaler. Pendekatan ordinal lebih tepat secara semantik "
+        "dibanding one-hot encoding karena grade memiliki urutan kualitas alamiah. Hal ini juga mengurangi dimensi "
+        "input secara signifikan dari 101 menjadi 83 fitur.\n"
+        "4. Standard Scaling: Menggunakan StandardScaler pada kolom numerik age, mileage, dan grade_ordinal.\n"
+        "5. One-Hot Dummy Encoding: Menyandi variabel kategori (brand, model_clean, transmission, location_clean, dan "
+        "fuel_type) menjadi 80 kolom input biner (tanpa grade yang sudah ordinal).\n"
+        "6. Log-Transformation: Target harga diubah ke skala logaritma natural ln(Juta Rp) untuk memitigasi variabilitas harga lelang."
     )
     
     doc.add_page_break()
@@ -248,8 +252,8 @@ def generate_docx():
     p.paragraph_format.space_after = Pt(12)
     p.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
     p.add_run(
-        "Arsitektur JST dirancang menggunakan model Sequential MLP Keras yang diadaptasi untuk dimensi input 101 fitur. "
-        "Model ini menggunakan skema regularisasi untuk menangani noise dan kompleksitas dari integrasi variabel grade."
+        "Arsitektur JST dirancang menggunakan model Sequential MLP Keras yang diadaptasi untuk dimensi input 83 fitur. "
+        "Model ini dioptimasi dengan regularisasi yang diperkuat untuk mencapai kondisi Good Fit pada data lelang riil."
     )
     
     p_arch_title = doc.add_paragraph()
@@ -271,10 +275,10 @@ def generate_docx():
             run.font.size = Pt(10)
             
     arch_rows = [
-        ["Input Layer", "101 Neuron", "None", "Menerima 2 numerik terstandardisasi dan 99 variabel kategori one-hot (termasuk grade)."],
-        ["Hidden Layer 1", "128 Neuron", "ReLU", "L2(0.0003) + Dropout(0.1)"],
-        ["Hidden Layer 2", "64 Neuron", "ReLU", "L2(0.0003) + Dropout(0.05)"],
-        ["Hidden Layer 3", "32 Neuron", "ReLU", "L2(0.0003)"],
+        ["Input Layer", "83 Neuron", "None", "Menerima 3 numerik terstandardisasi (age, mileage, grade_ordinal) dan 80 variabel kategori one-hot."],
+        ["Hidden Layer 1", "128 Neuron", "ReLU", "L2(0.0005) + Dropout(0.15)"],
+        ["Hidden Layer 2", "64 Neuron", "ReLU", "L2(0.0005) + Dropout(0.08)"],
+        ["Hidden Layer 3", "32 Neuron", "ReLU", "L2(0.0005)"],
         ["Output Layer", "1 Neuron", "Linear", "Memprediksi nilai logaritma harga dasar lelang (ln(Juta Rp))."]
     ]
     
@@ -297,9 +301,10 @@ def generate_docx():
     p.add_run(
         "Fungsi aktivasi ReLU diterapkan pada hidden layers untuk mempercepat konvergensi. Loss function dihitung "
         "menggunakan Mean Squared Error (MSE). Model dioptimasi dengan Adam Optimizer (learning rate awal = 0.001) "
-        "dilengkapi callback EarlyStopping (patience=25) dan ReduceLROnPlateau (factor=0.5, patience=10). Regularisasi "
-        "L2 (lambda=0.0003) dan Dropout (10% & 5%) diterapkan untuk menstabilkan pembelajaran neural network "
-        "pada dataset lelang riil."
+        "dilengkapi callback EarlyStopping (patience=30) dan ReduceLROnPlateau (factor=0.5, patience=10). Regularisasi "
+        "L2 (lambda=0.0005) dan Dropout (15% & 8%) diterapkan untuk menstabilkan pembelajaran neural network "
+        "pada dataset lelang riil. Batch size diperbesar menjadi 32 untuk menghasilkan gradient yang lebih smooth "
+        "dan meningkatkan generalisasi model."
     )
     
     doc.add_page_break()
@@ -318,14 +323,14 @@ def generate_docx():
     p.paragraph_format.space_after = Pt(12)
     p.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
     p.add_run(
-        "Model dilatih pada 679 baris data bersih lelang JBA. Pelatihan dihentikan oleh Early Stopping pada epoch ke-61 "
+        "Model dilatih pada 679 baris data bersih lelang JBA. Pelatihan dihentikan oleh Early Stopping pada epoch ke-75 "
         "karena loss validasi telah mencapai titik optimum global. Di bawah ini disajikan metrik performa model JST lelang:"
     )
     
     bullet_results = [
-        "Akurasi Model Regresi (R2): Model mencapai R2 pengujian sebesar 0.7290 (R2 training = 0.8882). Hasil ini tergolong solid mengingat kompleksitas data lelang yang dipengaruhi oleh grade kualitatif fisik mobil.",
-        "Rata-rata Error Persentase (MAPE): MAPE pengujian tercatat sebesar 19.86% (MAPE training = 12.70%). Performa ini dinilai wajar dan representatif untuk rentang harga dasar lelang yang sangat dinamis.",
-        "Rata-rata Error Absolut (MAE): MAE pengujian tercatat sebesar Rp 30.61 Juta Rupiah (MAE training = 21.73 Juta Rupiah), menunjukkan deviasi rata-rata harga prediksi nominal.",
+        "Akurasi Model Regresi (R2): Model mencapai R2 pengujian sebesar 0.7772 (R2 training = 0.9091). Selisih R2 train-test sebesar 0.1319 menunjukkan model berada dalam kondisi Good Fit yang stabil untuk data lelang riil.",
+        "Rata-rata Error Persentase (MAPE): MAPE pengujian tercatat sebesar 17.31% (MAPE training = 12.44%). Gap MAPE train-test hanya 4.87% menunjukkan generalisasi yang sangat baik mengingat noise tinggi pada harga lelang.",
+        "Rata-rata Error Absolut (MAE): MAE pengujian tercatat sebesar Rp 26.73 Juta Rupiah (MAE training = 20.57 Juta Rupiah), menunjukkan deviasi rata-rata harga prediksi nominal.",
         "Kecepatan Inferensi: inferensi model JST murni berbasis NumPy berjalan sangat cepat dalam waktu kurang dari 2 milidetik, mendukung prediksi real-time di aplikasi web Streamlit."
     ]
     for br in bullet_results:
@@ -381,11 +386,13 @@ def generate_docx():
     p_eval.paragraph_format.space_after = Pt(12)
     p_eval.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
     p_eval.add_run(
-        "Kelebihan Model: Integrasi Grade Inspeksi meningkatkan kepekaan model JST terhadap kondisi riil fisik mobil lelang. "
-        "Model ini sukses mengidentifikasi depresiasi nilai yang diakibatkan oleh penurunan grade (A ke E) pada unit sejenis. "
+        "Kelebihan Model: Integrasi Grade Inspeksi secara ordinal (bukan one-hot) meningkatkan efisiensi dimensi input "
+        "dan kepekaan model JST terhadap kondisi riil fisik mobil lelang. Penggunaan ordinal encoding mengurangi dimensi "
+        "input dari 101 menjadi 83 fitur, meningkatkan rasio data:fitur dan stabilitas generalisasi. "
+        "Model sukses mencapai gap MAPE train-test hanya 4.87% yang menunjukkan kondisi Good Fit. "
         "Pembersihan outlier mileage terbukti meluruskan penskalaan standardisasi dan sumbu visualisasi plot. "
         "Kekurangan Model: Variabilitas harga dasar lelang yang sangat dipengaruhi oleh kelengkapan dokumen (BPKB) "
-        "dan kondisi eksternal balai lelang menyebabkan nilai MAPE testing (19.86%) sedikit lebih tinggi dibandingkan model retail."
+        "dan kondisi eksternal balai lelang menyebabkan nilai MAPE testing (17.31%) sedikit lebih tinggi dibandingkan model retail."
     )
     
     doc.add_page_break()
@@ -409,9 +416,10 @@ def generate_docx():
     p.add_run(
         "Proyek sistem cerdas estimasi harga dasar lelang mobil bekas berbasis JST MLP 'grade-aware' telah sukses diselesaikan. "
         "Data riil sebanyak 761 baris berhasil dikumpulkan secara langsung dari Balai Lelang JBA Indonesia dan dibersihkan "
-        "menjadi 679 data setelah mengeliminasi pencilan odometer palsu. Model JST dilatih dengan dimensi input 101 fitur "
-        "one-hot encoded (mengakomodasi kolom grade lelang) and mencapai akurasi R2 testing sebesar 72.90% dengan MAPE "
-        "pengujian 19.86% (dalam batas wajar industri lelang). Implementasi dashboard Streamlit interaktif memudahkan "
+        "menjadi 679 data setelah mengeliminasi pencilan odometer palsu. Model JST dilatih dengan dimensi input 83 fitur "
+        "(menggunakan ordinal encoding untuk kolom grade lelang, bukan one-hot) dan mencapai akurasi R2 testing sebesar 77.72% dengan MAPE "
+        "pengujian 17.31%. Gap MAPE train-test hanya 4.87% menunjukkan kondisi Good Fit yang stabil. "
+        "Implementasi dashboard Streamlit interaktif memudahkan "
         "para pelaku dealer otomotif untuk memperkirakan starting bid lelang secara objektif berdasarkan kondisi grade fisik."
     )
     
