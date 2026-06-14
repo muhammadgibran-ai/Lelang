@@ -1,0 +1,762 @@
+brand,model,year,mileage,transmission,location,fuel_type,price,grade
+Toyota,INNOVA ZENIX Q MODELISTA HYBRID 2.0,2025,15379,Automatic,Jakarta Raya,Bensin,288000000,A
+Landrover,RANGE ROVER AUTOBIOGRAPHY 5.0,2014,50469,Automatic,Jakarta Raya,Bensin,435000000,A
+Daihatsu,TERIOS TX 1.5,2010,167242,Automatic,Jakarta Raya,Bensin,81500000,A
+Toyota,VELLFIRE G 2.5,2019,59608,Automatic,Jakarta Raya,Bensin,315000000,A
+Chery,OMODA 5 Z 1.5,2023,10837,Automatic,Jakarta Raya,Bensin,125000000,A
+Toyota,CAMRY HYBRID 2.5,2023,32153,Automatic,Semarang,Bensin,440000000,A
+Toyota,RUSH G 1.5,2021,77693,Automatic,Jambi,Bensin,180000000,A
+Toyota,CALYA G 1.2,2020,60957,Automatic,Medan,Bensin,100000000,B
+Honda,WR-V RS 1.5,2023,73267,Automatic,Jakarta Raya,Bensin,196000000,B
+Toyota,INNOVA G 2.4,2022,79219,Manual,Gedangan,Diesel,270000000,B
+Daihatsu,SIGRA D 1.0,2024,15311,Manual,Pontianak,Bensin,100000000,B
+Suzuki,CARRY CL PICK UP 1.5,2023,80492,Manual,Medan,Bensin,81000000,B
+Toyota,RAIZE 1.0,2021,24585,Automatic,Manado,Bensin,149800000,B
+Suzuki,ERTIGA GX HYBRID 1.5,2023,37038,Manual,Medan,Bensin,135000000,B
+Toyota,AGYA G 1.2,2020,57130,Manual,Manado,Bensin,122000000,B
+Toyota,FORTUNER VRZ 2.8,2022,62669,Automatic,Gedangan,Diesel,408000000,B
+Daihatsu,SIGRA R 1.2,2024,28605,Manual,Jakarta Raya,Bensin,114000000,B
+Honda,HR-V PRESTIGE 1.8,2021,70559,Automatic,Gedangan,Bensin,230000000,B
+Toyota,CALYA G 1.2,2021,53640,Manual,Jakarta Raya,Bensin,109000000,B
+Toyota,AVANZA G 1.5,2022,58974,Manual,Palembang,Bensin,140000000,B
+Suzuki,ERTIGA GX HYBRID 1.5,2024,88472,Manual,Denpasar,Bensin,175000000,B
+Daihatsu,AYLA M 1.0,2024,35497,Manual,Denpasar,Bensin,100000000,B
+Isuzu,FVZ P 7.8,2023,13121,Manual,Manado,Diesel,560000000,B
+Daihatsu,TERIOS X 1.5,2025,26951,Manual,Denpasar,Bensin,200000000,B
+Honda,HR-V SE 1.5,2023,29933,Automatic,Gedangan,Bensin,275000000,B
+Daihatsu,SIGRA R 1.2,2025,14856,Manual,Medan,Bensin,135000000,B
+Toyota,AGYA G 1.2,2022,51190,Manual,Jakarta Raya,Bensin,103000000,B
+Toyota,AVANZA E 1.3,2022,80663,Automatic,Palembang,Bensin,135000000,B
+Daihatsu,AYLA X 1.0,2025,33625,Automatic,Gedangan,Bensin,120000000,B
+Honda,HR-V SE 1.5,2019,79387,Automatic,Jakarta Raya,Bensin,190000000,B
+Mitsubishi,COLT L300 P.U 2.3,2022,47354,Manual,Medan,Diesel,203000000,B
+Toyota,AVANZA G 1.5,2022,40907,Manual,Pangkal_Pinang,Bensin,176000000,B
+Suzuki,CARRY CX PICK UP 1.5,2024,34038,Manual,Gedangan,Bensin,115000000,B
+Daihatsu,AYLA X 1.0,2025,12837,Manual,Gedangan,Bensin,120000000,B
+Toyota,CAMRY V 2.5,2023,56913,Automatic,Jakarta Raya,Bensin,345000000,B
+Toyota,COROLLA CROSS 1.8,2020,58895,Automatic,Jakarta Raya,Bensin,275000000,B
+Mitsubishi,PAJERO SPORT EXCEED 2.5,2022,82200,Automatic,Jakarta Raya,Diesel,354000000,B
+Suzuki,BALENO 1.4,2021,41802,Automatic,Jakarta Raya,Bensin,165000000,B
+Daihatsu,AYLA X 1.0,2022,38247,Manual,Denpasar,Bensin,85000000,B
+Daihatsu,GRAN MAX PU 1.3,2024,25333,Manual,Denpasar,Bensin,95000000,B
+Daihatsu,XENIA X 1.3,2025,34206,Automatic,Denpasar,Bensin,200000000,B
+Toyota,INNOVA ZENIX G 2.0,2025,13534,Automatic,Jakarta Raya,Bensin,288000000,B
+Daihatsu,GRAN MAX PU 1.5,2025,8295,Manual,Gedangan,Bensin,140000000,B
+Toyota,AGYA G 1.2,2024,53141,Manual,Jakarta Raya,Bensin,107000000,B
+Daihatsu,AYLA X 1.0,2024,67232,Manual,Gedangan,Bensin,100000000,B
+Suzuki,XL-7 ZETA 1.5,2025,7119,Automatic,Denpasar,Bensin,235000000,B
+Toyota,INNOVA ZENIX V MODELLISTA HYBRID 2.0,2024,10745,Automatic,Jakarta Raya,Bensin,335000000,B
+Suzuki,CARRY CX PICK UP 1.5,2021,80583,Manual,Jember,Bensin,80000000,B
+Nissan,SERENA HIGWAY STAR 2.0,2023,67431,Automatic,Jakarta Raya,Bensin,258000000,B
+Daihatsu,SIGRA R 1.2,2024,98446,Automatic,Jember,Bensin,115000000,B
+Bmw,X5 XDRIVE 3.0,2022,37460,Automatic,Jakarta Raya,Bensin,900000000,B
+Toyota,FORTUNER VRZ 2.8,2022,54406,Automatic,Jakarta Raya,Diesel,350000000,B
+Toyota,AVANZA G 1.5,2022,75341,Manual,Gedangan,Bensin,172500000,B
+Toyota,ALPHARD Q 3.5,2020,70585,Automatic,Jakarta Raya,Bensin,595000000,B
+Daihatsu,GRAN MAX PU 1.3,2025,7099,Manual,Gedangan,Bensin,115000000,B
+Daihatsu,SIGRA X 1.2,2023,87359,Manual,Denpasar,Bensin,100000000,B
+Honda,HR-V E 1.5,2023,40539,Automatic,Aceh,Bensin,270000000,B
+Toyota,FORTUNER VRZ 2.8,2023,89970,Automatic,Jakarta Raya,Diesel,425000000,B
+Bmw,730 LI,2018,48709,Automatic,Jakarta Raya,Bensin,415000000,B
+Toyota,RAIZE G 1.0,2023,19896,Automatic,Medan,Bensin,170000000,B
+Ud,TRUCKS CKE 250 7.7,2021,1393,Manual,Gedangan,Diesel,775000000,B
+Daihatsu,AYLA M 1.0,2023,15033,Manual,Denpasar,Bensin,80000000,B
+Honda,JAZZ RS 1.5,2019,83182,Automatic,Gedangan,Bensin,180000000,B
+Toyota,INNOVA G 2.4,2025,14913,Automatic,Jakarta Raya,Diesel,309000000,B
+Toyota,YARIS S 1.5,2019,80782,Automatic,Jakarta Raya,Bensin,159000000,B
+Suzuki,GRAND VITARA GX 1.5,2024,70724,Automatic,Jakarta Raya,Bensin,268000000,B
+Daihatsu,SIGRA M 1.0,2020,81396,Manual,Gedangan,Bensin,88000000,B
+Honda,WR-V E 1.5,2023,28821,Manual,Jakarta Raya,Bensin,169000000,B
+Toyota,CALYA G 1.2,2022,93622,Manual,Gedangan,Bensin,102000000,B
+Toyota,AVANZA G 1.5,2022,84160,Manual,Gedangan,Bensin,160000000,B
+Mitsubishi,XPANDER SPORT 1.5,2022,72850,Automatic,Jakarta Raya,Bensin,208000000,B
+Wuling,CONFERO DB 1.5,2022,38749,Manual,Denpasar,Bensin,78000000,B
+Toyota,CAMRY V 2.5,2023,53670,Automatic,Jakarta Raya,Bensin,345000000,B
+Daihatsu,AYLA X 1.0,2021,17453,Manual,Gedangan,Bensin,85000000,B
+Daihatsu,SIGRA X 1.2,2021,65174,Automatic,Gedangan,Bensin,100000000,B
+Toyota,AVANZA G 1.5,2022,56611,Manual,Gedangan,Bensin,175000000,B
+Suzuki,ERTIGA SUZUKI SPORT 1.5,2022,98142,Automatic,Jakarta Raya,Bensin,162000000,B
+Wuling,BINGUO EV PREMIUM RANGE,2024,9161,Automatic,Jakarta Raya,Bensin,199250000,B
+Toyota,VIOS G 1.5,2022,57931,Automatic,Jakarta Raya,Bensin,168000000,B
+Toyota,AVANZA G 1.5,2022,74844,Manual,Gedangan,Bensin,172500000,B
+Mazda,3 HATCHBACK 2.0,2025,1897,Automatic,Jakarta Raya,Bensin,402000000,B
+Suzuki,IGNIS GX 1.2,2022,41133,Automatic,Gedangan,Bensin,133000000,B
+Toyota,AVANZA G 1.5,2022,80502,Manual,Gedangan,Bensin,172000000,B
+Daihatsu,AYLA R 1.2,2023,37681,Manual,Jakarta Raya,Bensin,113000000,B
+Toyota,VELOZ Q TSS 1.5,2021,43254,Automatic,Jakarta Raya,Bensin,220000000,B
+Toyota,AVANZA G 1.5,2022,83924,Manual,Gedangan,Bensin,169500000,B
+Toyota,INNOVA G 2.0,2022,21347,Manual,Jakarta Raya,Bensin,225000000,B
+Daihatsu,AYLA X 1.0,2023,32125,Manual,Mataram,Bensin,105000000,B
+Toyota,AVANZA G 1.5,2022,62788,Manual,Gedangan,Bensin,172500000,B
+Mitsubishi,CANTER FE 74L 3.9,2025,32596,Manual,Gedangan,Diesel,380000000,B
+Hino,115 SD 4.0,2022,37599,Manual,Gedangan,Diesel,233000000,B
+Hyundai,PALISADE SIGNATURE 2.2,2021,60350,Automatic,Malang,Diesel,540000000,B
+Toyota,AVANZA G 1.5,2022,52067,Manual,Malang,Bensin,174000000,B
+Daihatsu,XENIA X 1.3,2021,95504,Manual,Denpasar,Bensin,123000000,B
+Toyota,AVANZA G 1.5,2022,94425,Manual,Malang,Bensin,174000000,B
+Toyota,HILUX PU 2.0,2022,80095,Manual,Kupang,Bensin,160000000,B
+Toyota,AVANZA G 1.5,2022,99159,Manual,Malang,Bensin,162500000,B
+Honda,HR-V SE 1.5,2024,21716,Automatic,Denpasar,Bensin,325000000,B
+Suzuki,ERTIGA GL 1.5,2021,87376,Automatic,Jakarta - Tipar,Bensin,153500000,B
+Toyota,FORTUNER GR SPORT 2.8,2024,25378,Automatic,Bdg Soetta (Metro),Diesel,492500000,B
+Honda,MOBILIO S 1.5,2020,34152,Manual,Bdg Soetta (Metro),Bensin,120000000,B
+Mazda,2 GT 1.5,2022,21275,Automatic,Bdg Soetta (Metro),Bensin,219000000,B
+Hyundai,SANTA FE G SIGNATURE 2.5,2021,99255,Automatic,Bdg Soetta (Metro),Bensin,269000000,B
+Toyota,CALYA G 1.2,2020,60593,Automatic,Jakarta - Tipar,Bensin,113000000,B
+Honda,HR-V SE 1.5,2024,47100,Automatic,Jakarta - Tipar,Bensin,296000000,B
+Honda,BRIO SATYA E 1.2,2024,18460,Manual,Jakarta - Tipar,Bensin,148500000,B
+Honda,BRIO SATYA S 1.2,2024,33562,Manual,Bdg Soetta (Metro),Bensin,132500000,B
+Toyota,RAIZE GR SPORT 1.0,2022,77940,Automatic,Jakarta - Tipar,Bensin,183000000,B
+Mitsubishi,XPANDER ULTIMATE 1.5,2019,65969,Automatic,Jakarta - Tipar,Bensin,187500000,B
+Toyota,AGYA G 1.2,2021,84447,Automatic,Jakarta - Tipar,Bensin,125000000,B
+Toyota,AVANZA G 1.3,2021,78340,Automatic,Jakarta - Tipar,Bensin,160500000,B
+Toyota,RAIZE G 1.2,2022,18437,Automatic,Jakarta - Tipar,Bensin,172000000,B
+Daihatsu,ROCKY X 1.2,2022,34221,Automatic,Jakarta - Tipar,Bensin,162000000,B
+Honda,WR-V RS 1.5,2024,29248,Automatic,Jakarta - Tipar,Bensin,216500000,B
+Daihatsu,AYLA D 1.0,2022,19370,Manual,Bdg Soetta (Metro),Bensin,87500000,B
+Suzuki,XL 7 BETA 1.5,2022,39998,Automatic,Bdg Soetta (Metro),Bensin,177500000,B
+Honda,BRIO RS 1.2,2019,55435,Automatic,Bdg Soetta (Metro),Bensin,143500000,B
+Wuling,CORTEZ S 1.5,2022,74808,Automatic,Batam,Bensin,100000000,B
+Toyota,INNOVA G 2.0,2021,89126,Manual,Batam,Bensin,240000000,B
+Toyota,AVANZA G 1.3,2021,76633,Manual,Batam,Bensin,145000000,B
+Toyota,AVANZA G 1.5,2022,91743,Manual,Padang,Bensin,179000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,62327,Manual,Semarang,Bensin,130000000,B
+Wuling,CONFERO DB 1.5,2023,37698,Manual,Sampit,Bensin,166000000,B
+Suzuki,FRONX GL 1.5,2025,8964,Automatic,Pekanbaru,Bensin,195000000,B
+Toyota,FORTUNER SRZ 2.7,2019,73500,Automatic,Banjarmasin,Bensin,320000000,B
+Suzuki,XL 7 BETA 1.5,2024,22549,Manual,Sampit,Bensin,188500000,B
+Daihatsu,SIGRA D 1.0,2023,42525,Manual,Jambi,Bensin,93000000,B
+Daihatsu,SIGRA R 1.2,2023,40959,Manual,Banjarmasin,Bensin,110000000,B
+Mitsubishi,XPANDER EXCEED 1.5,2022,87419,Automatic,Semarang,Bensin,178000000,B
+Toyota,AVANZA G 1.5,2021,57320,Automatic,Banjarmasin,Bensin,155000000,B
+Daihatsu,SIGRA D 1.0,2024,41050,Manual,Purwokerto,Bensin,100000000,B
+Toyota,INNOVA G 2.4,2021,87933,Automatic,Jakarta Raya,Diesel,301000000,B
+Toyota,AVANZA VELOZ 1.5,2022,58106,Automatic,Semarang,Bensin,185000000,B
+Daihatsu,XENIA R 1.3,2018,90777,Automatic,Jakarta Raya,Bensin,112000000,B
+Toyota,AVANZA G 1.5,2022,84151,Manual,Semarang,Bensin,140000000,B
+Mitsubishi,PAJERO SPORT DAKAR 2.4,2022,80651,Automatic,Semarang,Diesel,380000000,B
+Mitsubishi,XPANDER EXCEED 1.5,2022,60176,Automatic,Jakarta Raya,Bensin,195000000,B
+Mitsubishi,XPANDER EXCEED 1.5,2022,74915,Automatic,Jakarta Raya,Bensin,195000000,B
+Toyota,INNOVA G 2.0,2019,72676,Automatic,Jakarta Raya,Bensin,222000000,B
+Daihatsu,SIGRA M 1.0,2024,39537,Manual,Jakarta Raya,Bensin,101000000,B
+Mitsubishi,XPANDER SPORT 1.5,2022,83518,Automatic,Jakarta Raya,Bensin,208000000,B
+Mitsubishi,XPANDER SPORT 1.5,2022,96444,Automatic,Jakarta Raya,Bensin,208000000,B
+Toyota,INNOVA G 2.0,2021,63135,Manual,Batam,Bensin,200000000,B
+Toyota,AVANZA G 1.3,2021,76224,Manual,Batam,Bensin,140000000,B
+Daihatsu,SIGRA R 1.2,2024,47518,Automatic,Jakarta Raya,Bensin,121000000,B
+Toyota,AVANZA G 1.3,2021,75789,Manual,Batam,Bensin,140000000,B
+Toyota,INNOVA G 2.0,2021,59197,Manual,Batam,Bensin,215000000,B
+Toyota,AVANZA G 1.5,2022,98825,Manual,Jakarta Raya,Bensin,150000000,B
+Isuzu,PHR 54 C BB,2021,13626,Manual,Jakarta Raya,Diesel,198000000,B
+Daihatsu,AYLA X 1.0,2022,28223,Automatic,Jakarta Raya,Bensin,93000000,B
+Toyota,INNOVA G 2.0,2022,57563,Automatic,Jakarta Raya,Bensin,230000000,B
+Toyota,CAMRY V 2.5,2021,72837,Automatic,Jakarta Raya,Bensin,275000000,B
+Toyota,CAMRY V 2.5,2023,52880,Automatic,Jakarta Raya,Bensin,345000000,B
+Toyota,CAMRY V 2.5,2023,77523,Automatic,Jakarta Raya,Bensin,345000000,B
+Toyota,FORTUNER VRZ 2.8,2023,58568,Automatic,Jakarta Raya,Diesel,425000000,B
+Mitsubishi,XPANDER GLS 1.5,2021,91470,Manual,Batam,Bensin,148000000,B
+Bmw,530I CKD 2.0,2018,77608,Automatic,Jakarta Raya,Bensin,440000000,B
+Wuling,AIR EV LONG RANGE,2023,28649,Automatic,Jakarta Raya,Bensin,121000000,B
+Isuzu,FVZ 34 P,2023,28536,Manual,Banjarmasin,Diesel,490000000,B
+Isuzu,FVZ 34 P,2023,58406,Manual,Banjarmasin,Diesel,490000000,B
+Isuzu,FVZ 34 P,2023,51696,Manual,Banjarmasin,Diesel,490000000,B
+Wuling,AIR EV LITE 300KM,2025,1539,Automatic,Jakarta Raya,Bensin,125000000,B
+Toyota,CAMRY V 2.5,2021,64040,Automatic,Jakarta Raya,Bensin,275000000,B
+Toyota,ALPHARD G 2.5,2020,59404,Automatic,Jakarta Raya,Bensin,532000000,B
+Toyota,RAIZE 1.0,2021,53369,Automatic,Jakarta Raya,Bensin,150000000,B
+Toyota,ALPHARD G 2.5,2018,60356,Automatic,Jakarta Raya,Bensin,570000000,B
+Toyota,AVANZA G 1.3,2021,41037,Manual,Jakarta Raya,Bensin,155000000,B
+Daihatsu,XENIA X 1.3,2022,64090,Automatic,Jakarta Raya,Bensin,135000000,B
+Mitsubishi,FE 74 HD N 3.9,2025,3088,Manual,Jakarta Raya,Diesel,465000000,B
+Ud,TRUCKS CKE 250 7.7,2023,56839,Manual,Cirebon,Diesel,360000000,B
+Daihatsu,AYLA X 1.0,2024,31901,Automatic,Bdg Soetta (Metro),Bensin,100000000,B
+Toyota,RAIZE 1.0,2021,57566,Automatic,Denpasar,Bensin,145000000,B
+Toyota,INNOVA G 2.0,2018,74566,Manual,Medan,Bensin,185000000,B
+Mitsubishi,FE 74 HD N 3.9,2022,48530,Manual,Medan,Diesel,279500000,B
+Toyota,COROLLA ALTIS HYBRID 1.8,2020,65997,Automatic,Jakarta - Tipar,Bensin,230000000,B
+Toyota,COROLLA ALTIS HYBRID 1.8,2020,62185,Automatic,Jakarta - Tipar,Bensin,240000000,B
+Bmw,520I G30,2022,17785,Automatic,Bdg Soetta (Metro),Bensin,635000000,B
+Toyota,INNOVA VENTURER 2.0,2022,66287,Automatic,Jakarta - Tipar,Bensin,303000000,B
+Toyota,ALPHARD G 2.5,2020,73097,Automatic,Bdg Soetta (Metro),Bensin,461000000,B
+Suzuki,XL 7 ALPHA HYBRID 1.5,2024,48833,Automatic,Jakarta - Tipar,Bensin,240000000,B
+Suzuki,FRONX GL 1.5,2025,7777,Manual,Cirebon,Bensin,210000000,B
+Suzuki,XL 7 ZETA 1.5,2024,26366,Manual,Jakarta - Tipar,Bensin,190000000,B
+Toyota,AVANZA G 1.3,2018,99561,Manual,Jakarta - Tipar,Bensin,132000000,B
+Isuzu,FVZ U HP 7.8,2023,63640,Manual,Kendari,Diesel,550000000,B
+Toyota,INNOVA ZENIX G HYBRID 2.0,2024,57328,Automatic,Jakarta - Tipar,Bensin,349000000,B
+Isuzu,FVZ U HP 7.8,2023,20708,Manual,Kendari,Diesel,550000000,B
+Isuzu,FVZ U HP 7.8,2023,42472,Manual,Palangkaraya,Diesel,560000000,B
+Isuzu,FVZ U HP 7.8,2023,32010,Manual,Palangkaraya,Diesel,550000000,B
+Honda,BRIO SATYA E 1.2,2019,72518,Automatic,Bdg Soetta (Metro),Bensin,125000000,B
+Daihatsu,SIGRA D 1.0,2024,25336,Manual,Sampit,Bensin,115000000,B
+Daihatsu,SIGRA M 1.0,2024,26738,Manual,Palangkaraya (Pky),Bensin,150000000,B
+Toyota,AGYA G 1.2,2024,23229,Automatic,Banjarmasin,Bensin,154000000,B
+Wuling,AIR EV LONG RANGE,2024,11356,Automatic,Jakarta Raya,Bensin,130000000,B
+Suzuki,CARRY CL PICK UP 1.5,2023,64850,Manual,Jakarta - Tipar,Bensin,90000000,B
+Mercedes,BENZ EQA 250,2023,37308,Automatic,Jakarta - Tipar,Bensin,1065000000,B
+Daihatsu,GRAN MAX BV 1.3,2022,73128,Manual,Banjarmasin,Bensin,110000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,40522,Manual,Semarang,Bensin,130000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,55141,Manual,Semarang,Bensin,130000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,56645,Manual,Semarang,Bensin,130000000,B
+Toyota,INNOVA G 2.4,2022,46387,Manual,Banjarmasin,Diesel,283000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,39181,Manual,Semarang,Bensin,130000000,B
+Mitsubishi,XPANDER SPORT 1.5,2022,80382,Manual,Palembang,Bensin,213000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,62289,Manual,Semarang,Bensin,130000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,49708,Manual,Semarang,Bensin,130000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,54488,Manual,Semarang,Bensin,130000000,B
+Toyota,FORTUNER G 2.4,2020,93225,Automatic,Jakarta - Tipar,Diesel,344000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,50468,Manual,Semarang,Bensin,130000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,48013,Manual,Semarang,Bensin,130000000,B
+Honda,JAZZ S 1.5,2018,87763,Manual,Semarang,Bensin,160500000,B
+Wuling,ALMAZ SMART ENJOY 1.5,2021,80054,Automatic,Manado,Bensin,140000000,B
+Nissan,X TRAIL 2.5,2021,62393,Automatic,Pontianak,Bensin,233000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,51900,Manual,Semarang,Bensin,130000000,B
+Nissan,X-TRAIL UPPER 2.5,2021,58203,Automatic,Pekanbaru,Bensin,253000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,48095,Manual,Semarang,Bensin,130000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,32932,Manual,Semarang,Bensin,130000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,77629,Manual,Semarang,Bensin,130000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,37360,Manual,Semarang,Bensin,130000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,68219,Manual,Semarang,Bensin,130000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,77273,Manual,Semarang,Bensin,130000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,80700,Manual,Semarang,Bensin,130000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,39317,Manual,Semarang,Bensin,130000000,B
+Daihatsu,GRAN MAX MINIBUS 1.5,2022,73527,Manual,Semarang,Bensin,130000000,B
+Toyota,INNOVA VENTURER 2.4,2021,102966,Automatic,Gedangan,Diesel,337000000,C
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2022,136633,Manual,Balikpapan,Diesel,130000000,C
+Wuling,CONFERO 1.5,2020,96228,Manual,Manado,Bensin,77000000,C
+Toyota,AVANZA G 1.3,2021,75516,Automatic,Balikpapan,Bensin,125000000,C
+Toyota,CALYA E 1.2,2020,158170,Manual,Palembang,Bensin,88000000,C
+Honda,CR-V PRESTIGE 1.5,2019,102540,Automatic,Jakarta Raya,Bensin,290000000,C
+Toyota,FORTUNER VRZ 2.8,2022,89003,Automatic,Balikpapan,Diesel,425000000,C
+Suzuki,XL 7 BETA 1.5,2022,140834,Automatic,Palembang,Bensin,160000000,C
+Toyota,FORTUNER V (4X4) 2.7,2012,110828,Automatic,Pontianak,Bensin,175000000,C
+Toyota,INNOVA V 2.0,2021,105674,Automatic,Jakarta Raya,Bensin,250000000,C
+Honda,CIVIC 1.5,2020,29162,Automatic,Medan,Bensin,268000000,C
+Toyota,INNOVA G 2.0,2011,135414,Automatic,Berau,Bensin,80000000,C
+Honda,BR-V E 1.5,2017,146195,Automatic,Pontianak,Bensin,110000000,C
+Daihatsu,AYLA X 1.0,2014,97707,Manual,Jakarta Raya,Bensin,58000000,C
+Daihatsu,SIGRA D 1.0,2022,175931,Manual,Balikpapan,Bensin,90000000,C
+Mitsubishi,XPANDER SPORT 1.5,2021,200580,Manual,Medan,Bensin,150000000,C
+Daihatsu,SIGRA R 1.2,2016,111636,Manual,Jakarta Raya,Bensin,63000000,C
+Daihatsu,AYLA M 1.0,2024,12937,Manual,Balikpapan,Bensin,103000000,C
+Honda,MOBILIO E 1.5,2016,106421,Manual,Gedangan,Bensin,93000000,C
+Honda,BRIO E 1.2,2014,193291,Automatic,Manado,Bensin,81000000,C
+Toyota,CAMRY V 2.4,2010,126712,Automatic,Jakarta Raya,Bensin,85000000,C
+Mitsubishi,XPANDER SPORT 1.5,2019,106979,Automatic,Gedangan,Bensin,162000000,C
+Toyota,INNOVA G 2.4,2022,88936,Manual,Balikpapan,Diesel,270000000,C
+Toyota,INNOVA G 2.4,2022,191453,Manual,Medan,Diesel,240000000,C
+Toyota,AVANZA G 1.3,2019,104984,Manual,Medan,Bensin,131000000,C
+Toyota,INNOVA G 2.0,2022,65468,Automatic,Balikpapan,Bensin,250000000,C
+Toyota,AVANZA E 1.3,2019,138863,Manual,Jakarta Raya,Bensin,102000000,C
+Suzuki,ERTIGA GX 1.4,2014,110213,Manual,Manado,Bensin,80000000,C
+Daihatsu,SIRION M 1.3,2010,139525,Automatic,Manado,Bensin,51000000,C
+Toyota,HILUX E DC (4X4) 2.4,2022,192587,Manual,Balikpapan,Diesel,185000000,C
+Daihatsu,AYLA X 1.0,2015,144984,Manual,Jakarta Raya,Bensin,67000000,C
+Toyota,ALPHARD 2.4,2006,97660,Automatic,Balikpapan,Bensin,75000000,C
+Toyota,ALPHARD G 2.4,2011,162460,Automatic,Palembang,Bensin,115000000,C
+Daihatsu,GRAN MAX PU AC PS 1.5,2024,33387,Manual,Balikpapan,Bensin,97000000,C
+Toyota,HARRIER 2.4,2011,177030,Automatic,Jakarta Raya,Bensin,90000000,C
+Honda,HR-V E 1.5,2023,13548,Automatic,Samarinda,Bensin,286000000,C
+Land,ROVER RANGE ROVER EVOQUE 2.0,2015,94679,Automatic,Medan,Bensin,210000000,C
+Honda,BR-V E 1.5,2019,75125,Manual,Samarinda,Bensin,137000000,C
+Toyota,INNOVA G 2.0,2022,120198,Automatic,Gedangan,Bensin,240000000,C
+Mitsubishi,XPANDER EXCEED 1.5,2019,138288,Automatic,Jakarta Raya,Bensin,100000000,C
+Daihatsu,GRAN MAX MINIBUS 1.5,2018,107993,Manual,Jakarta Raya,Bensin,100000000,C
+Honda,BRIO SATYA S 1.2,2020,48145,Manual,Medan,Bensin,118000000,C
+Toyota,AVANZA E 1.3,2022,57750,Manual,Palembang,Bensin,125000000,C
+Toyota,FORTUNER VRZ 2.4,2021,124282,Automatic,Palembang,Diesel,335000000,C
+Daihatsu,XENIA X 1.3,2018,105417,Manual,Gorontalo,Bensin,100000000,C
+Nissan,SERENA HIGWAY STAR 2.0,2013,50781,Automatic,Medan,Bensin,95000000,C
+Daihatsu,XENIA R 1.3,2017,305847,Manual,Gedangan,Bensin,100000000,C
+Daihatsu,GRAN MAX MINIBUS 1.3,2010,248512,Manual,Medan,Bensin,47000000,C
+Toyota,INNOVA G 2.4,2021,157987,Manual,Palembang,Diesel,250000000,C
+Honda,BRIO SATYA E 1.2,2017,111846,Automatic,Jakarta Raya,Bensin,85000000,C
+Daihatsu,SIGRA D 1.0,2021,94294,Manual,Palembang,Bensin,70000000,C
+Mitsubishi,COLT DIESEL FE 73,2020,262185,Manual,Balikpapan,Diesel,264000000,C
+Nissan,SERENA HIGWAY STAR 2.0,2016,128682,Automatic,Jakarta Raya,Bensin,130000000,C
+Suzuki,ERTIGA GL 1.4,2016,75071,Manual,Medan,Bensin,87000000,C
+Honda,JAZZ RS 1.5,2019,117748,Automatic,Pangkal_Pinang,Bensin,164000000,C
+Toyota,CALYA G 1.2,2017,93210,Manual,Medan,Bensin,77000000,C
+Honda,BRIO SATYA E 1.2,2015,124736,Manual,Jakarta Raya,Bensin,94000000,C
+Toyota,HILUX DC G 2.4,2023,151668,Manual,Balikpapan,Diesel,310000000,C
+Honda,BRIO E 1.2,2015,77636,Automatic,Pangkal_Pinang,Bensin,85000000,C
+Toyota,AVANZA G 1.3,2019,133230,Automatic,Jakarta Raya,Bensin,142000000,C
+Honda,CR-V 2.0,2012,141860,Automatic,Jakarta - Tipar,Bensin,61500000,C
+Toyota,VELLFIRE Z 2.4,2014,120400,Automatic,Pekanbaru,Bensin,175000000,C
+Toyota,HILUX DC G 2.4,2023,67393,Manual,Balikpapan,Diesel,315000000,C
+Mitsubishi,TRITON DC GLS 4X4 2.4,2021,118690,Manual,Balikpapan,Diesel,195000000,C
+Hino,FL 235 JW 7.7,2018,320431,Manual,Gedangan,Diesel,650000000,C
+Honda,ODYSSEY 2.4,2019,172831,Automatic,Jakarta - Tipar,Bensin,170000000,C
+Hyundai,SANTA FE XG 2.4,2020,156093,Automatic,Jakarta Raya,Bensin,270000000,C
+Toyota,INNOVA G 2.0,2022,65034,Manual,Balikpapan,Bensin,253000000,C
+Hyundai,SANTA FE PRIME 2.5,2022,146105,Automatic,Jakarta Raya,Bensin,300000000,C
+Toyota,AVANZA E 1.3,2016,62532,Manual,Bengkulu,Bensin,89000000,C
+Toyota,VELLFIRE 2.4,2014,142663,Automatic,Jakarta Raya,Bensin,195000000,C
+Honda,MOBILIO RS 1.5,2015,148831,Automatic,Gedangan,Bensin,90000000,C
+Honda,ACCORD VTI-L 2.4,2017,74698,Automatic,Jakarta Raya,Bensin,253000000,C
+Mitsubishi,XPANDER GLS 1.5,2021,139652,Automatic,Jakarta Raya,Bensin,165000000,C
+Mitsubishi,FN 527 ML,2019,38057,Manual,Bengkulu,Diesel,392000000,C
+Suzuki,ERTIGA GL 1.4,2017,125921,Manual,Bengkulu,Bensin,87000000,C
+Isuzu,NLR55 B,2020,213456,Manual,Medan,Diesel,205000000,C
+Toyota,INNOVA G 2.0,2019,148798,Automatic,Bengkulu,Bensin,192000000,C
+Toyota,INNOVA V 2.0,2019,247616,Manual,Gedangan,Bensin,205000000,C
+Suzuki,XL 7 BETA 1.5,2024,104055,Automatic,Jakarta Raya,Bensin,200000000,C
+Toyota,SIENTA Q 1.5,2016,90212,Automatic,Pangkal_Pinang,Bensin,88000000,C
+Toyota,AVANZA G 1.3,2021,189549,Manual,Jakarta Raya,Bensin,155000000,C
+Honda,BRIO SATYA E 1.2,2019,124878,Manual,Bengkulu,Bensin,108000000,C
+Isuzu,NLR55 B,2020,150655,Manual,Medan,Diesel,205000000,C
+Hyundai,SANTA FE PRIME 2.5,2022,142634,Automatic,Jakarta Raya,Bensin,300000000,C
+Toyota,AGYA G 1.0,2013,140769,Automatic,Bengkulu,Bensin,74000000,C
+Isuzu,NLR 55 B 2.8,2020,175864,Manual,Medan,Diesel,225000000,C
+Bmw,740 LI 3.0,2012,74362,Automatic,Jakarta Raya,Bensin,213500000,C
+Toyota,HILUX E DC (4X4) 2.4,2022,73284,Manual,Medan,Diesel,145000000,C
+Toyota,AVANZA G 1.5,2022,107607,Manual,Gedangan,Bensin,172500000,C
+Toyota,HILUX SC 2.4,2022,59144,Manual,Medan,Diesel,162000000,C
+Mahindra,SCORPIO DC 2.2,2022,11503,Manual,Balikpapan,Diesel,155000000,C
+Isuzu,FVZ N HP 7.8,2022,83846,Manual,Palembang,Diesel,400000000,C
+Toyota,INNOVA G 2.0,2017,171450,Automatic,Denpasar,Bensin,162000000,C
+Hyundai,SANTA FE G SIGNATURE 2.5,2022,122771,Automatic,Jakarta Raya,Bensin,354000000,C
+Isuzu,FVZ N HP 7.8,2022,77465,Manual,Palembang,Diesel,400000000,C
+Toyota,AVANZA G 1.3,2019,129789,Manual,Denpasar,Bensin,145000000,C
+Isuzu,FVZ N HP 7.8,2022,67560,Manual,Palembang,Diesel,400000000,C
+Toyota,CALYA G 1.2,2018,142219,Automatic,Denpasar,Bensin,70000000,C
+Daihatsu,XENIA X 1.3,2020,130936,Manual,Denpasar,Bensin,130000000,C
+Daihatsu,SIGRA M 1.0,2021,105834,Manual,Malang,Bensin,75000000,C
+Isuzu,FVZ N HP 7.8,2022,69487,Manual,Palembang,Diesel,400000000,C
+Hyundai,PALISADE SIGNATURE 2.2,2021,104381,Automatic,Jakarta Raya,Diesel,470000000,C
+Isuzu,FVZ N HP 7.8,2022,79729,Manual,Palembang,Diesel,400000000,C
+Honda,CR-V 2.4,2007,138246,Automatic,Medan,Bensin,85000000,C
+Mitsubishi,PAJERO SPORT EXCEED 2.5,2013,156656,Automatic,Medan,Diesel,208000000,C
+Mitsubishi,XPANDER CROSS 1.5,2021,25683,Automatic,Jember,Bensin,205000000,C
+Dfsk,GLORY 580 LUXURY 1.8,2019,116948,Automatic,Jakarta Raya,Bensin,82000000,C
+Suzuki,ERTIGA GL 1.4,2017,99728,Manual,Jakarta Raya,Bensin,87000000,C
+Toyota,COROLLA CROSS HYBRID 1.8,2021,149312,Automatic,Jakarta Raya,Bensin,310000000,C
+Toyota,COROLLA ALTIS V 1.8,2021,113054,Automatic,Jakarta Raya,Bensin,260000000,C
+Daihatsu,GRAN MAX 1.3 D,2024,107711,Manual,Denpasar,Bensin,121500000,C
+Hyundai,SANTA FE PRIME 2.5,2023,114451,Automatic,Jakarta Raya,Bensin,350000000,C
+Daihatsu,SIGRA D 1.0,2019,170474,Manual,Jember,Bensin,70000000,C
+Honda,BRIO SATYA E 1.2,2017,197260,Manual,Kupang,Bensin,62000000,C
+Toyota,INNOVA ZENIX G HYBRID 2.0,2023,375880,Automatic,Jakarta Raya,Bensin,330000000,C
+Toyota,INNOVA ZENIX G HYBRID 2.0,2023,392853,Automatic,Jakarta Raya,Bensin,330000000,C
+Toyota,AVANZA G 1.3,2019,169928,Manual,Gedangan,Bensin,142000000,C
+Toyota,FORTUNER G 2.7,2013,159626,Automatic,Jakarta Raya,Bensin,165000000,C
+Honda,CIVIC 1.5,2020,114039,Automatic,Jakarta Raya,Bensin,282000000,C
+Toyota,ALPHARD 2.4,2014,130882,Automatic,Gedangan,Bensin,113000000,C
+Toyota,VELLFIRE 2.4,2009,95204,Automatic,Jakarta Raya,Bensin,137000000,C
+Nissan,SERENA HIGWAY STAR 2.0,2017,161741,Automatic,Gedangan,Bensin,152000000,C
+Mazda,CX-5 GT 2.5,2017,81334,Automatic,Jakarta Raya,Bensin,220000000,C
+Toyota,YARIS E 1.5,2012,131568,Manual,Malang,Bensin,79000000,C
+Hyundai,SANTA FE XG 2.4,2020,168671,Automatic,Jakarta Raya,Bensin,270000000,C
+Honda,CIVIC 1.8,2010,155827,Automatic,Jakarta Raya,Bensin,100000000,C
+Nissan,TERRA VL 2.5,2018,133792,Automatic,Jakarta Raya,Diesel,272000000,C
+Toyota,INNOVA E 2.0,2013,310880,Manual,Gedangan,Bensin,130000000,C
+Toyota,CALYA G 1.2,2018,168259,Automatic,Gedangan,Bensin,95000000,C
+Toyota,FORTUNER G 2.7,2010,224288,Automatic,Jakarta Raya,Bensin,105000000,C
+Toyota,AVANZA G 1.5,2022,113813,Manual,Gedangan,Bensin,172500000,C
+Datsun,GO PANCA T 1.2,2016,121138,Manual,Gedangan,Bensin,48000000,C
+Toyota,HARRIER 2.4,2008,118599,Automatic,Jakarta Raya,Bensin,112000000,C
+Mitsubishi,PAJERO SPORT EXCEED 2.5,2009,265048,Automatic,Gedangan,Diesel,130000000,C
+Bmw,X3 XDRIVE 2.0,2015,59300,Automatic,Jakarta Raya,Bensin,230000000,C
+Toyota,AVANZA G 1.5,2022,168531,Manual,Jember,Bensin,162500000,C
+Daihatsu,XENIA X 1.3,2016,175836,Manual,Jakarta Raya,Bensin,95000000,C
+Toyota,ALPHARD X 2.4,2014,157963,Automatic,Malang,Bensin,99000000,C
+Jaguar,X V6 2.0,2007,121615,Automatic,Gedangan,Bensin,53000000,C
+Toyota,INNOVA G 2.0,2018,118275,Automatic,Jakarta Raya,Bensin,201000000,C
+Toyota,LAND CRUISER CYGNUS 4.7,2004,146894,Automatic,Jakarta Raya,Bensin,250000000,C
+Daihatsu,XENIA X 1.3,2017,200083,Manual,Mataram,Bensin,99000000,C
+Toyota,RUSH S 1.5,2021,101759,Manual,Denpasar,Bensin,185000000,C
+Hino,115 SD 4.0,2022,57784,Manual,Gedangan,Diesel,233000000,C
+Daihatsu,GRAN MAX PU 1.3,2015,129619,Manual,Mataram,Bensin,71000000,C
+Nissan,GRAND LIVINA S 1.5,2012,198584,Manual,Denpasar,Bensin,47000000,C
+Hino,115 SD 4.0,2022,50632,Manual,Gedangan,Diesel,233000000,C
+Isuzu,PHR 54 C BB,2022,253849,Manual,Gedangan,Diesel,155000000,C
+Toyota,INNOVA G 2.4,2018,228433,Manual,Gedangan,Diesel,243000000,C
+Toyota,AVANZA G 1.3,2019,122719,Automatic,Denpasar,Bensin,142000000,C
+Hyundai,H-1 2.5,2015,168745,Automatic,Denpasar,Diesel,120000000,C
+Toyota,HARRIER 2.4,2008,151533,Automatic,Malang,Bensin,55000000,C
+Toyota,AGYA G 1.0,2014,102757,Automatic,Malang,Bensin,55000000,C
+Daihatsu,XENIA R 1.3,2012,155247,Manual,Denpasar,Bensin,70000000,C
+Datsun,GO PANCA T 1.2,2019,136720,Manual,Malang,Bensin,45000000,C
+Mitsubishi,L300 PU BOX 2.5,2020,103125,Manual,Denpasar,Diesel,152500000,C
+Toyota,VELOZ Q 1.5,2023,68576,Automatic,Malang,Bensin,222000000,C
+Daihatsu,XENIA R 1.3,2022,130023,Manual,Kediri,Bensin,155000000,C
+Toyota,HILUX PU 2.0,2022,66324,Manual,Kupang,Bensin,150000000,C
+Toyota,AVANZA G 1.5,2022,120522,Manual,Kediri,Bensin,162500000,C
+Toyota,AVANZA VELOZ 1.5,2018,119924,Automatic,Mataram,Bensin,127500000,C
+Toyota,CAMRY V 2.5,2015,118959,Automatic,Jakarta - Tipar,Bensin,150000000,C
+Honda,BRIO E 1.3,2013,157245,Automatic,Jakarta - Tipar,Bensin,86500000,C
+Toyota,ALPHARD V 3.0,2003,134452,Automatic,Jakarta - Tipar,Bensin,50000000,C
+Daihatsu,TERIOS X 1.5,2022,104872,Automatic,Jakarta - Tipar,Bensin,176000000,C
+Suzuki,ERTIGA GX 1.4,2012,176062,Manual,Jakarta - Tipar,Bensin,78000000,C
+Nissan,GRAND LIVINA XV 1.5,2015,158586,Automatic,Bdg Soetta (Metro),Bensin,78000000,C
+Toyota,AGYA G 1.0,2015,180302,Manual,Jakarta - Tipar,Bensin,64000000,C
+Honda,BR-V PRESTIGE 1.5,2021,159256,Automatic,Jakarta - Tipar,Bensin,167500000,C
+Daihatsu,AYLA M 1.0,2016,131449,Manual,Bdg Soetta (Metro),Bensin,67000000,C
+Toyota,INNOVA G 2.4,2021,114581,Automatic,Bdg Soetta (Metro),Diesel,288500000,C
+Toyota,AVANZA G 1.3,2015,154164,Manual,Jakarta - Tipar,Bensin,110500000,C
+Nissan,SERENA HIGWAY STAR 2.0,2010,129851,Automatic,Bdg Soetta (Metro),Bensin,55000000,C
+Honda,MOBILIO E 1.5,2015,163881,Manual,Jakarta - Tipar,Bensin,93000000,C
+Toyota,AVANZA E 1.3,2016,372503,Automatic,Jakarta - Tipar,Bensin,106500000,C
+Toyota,INNOVA G 2.0,2013,191940,Automatic,Jakarta - Tipar,Bensin,137500000,C
+Honda,MOBILIO E 1.5,2019,102113,Automatic,Bdg Soetta (Metro),Bensin,131500000,C
+Toyota,AVANZA S 1.5,2009,190077,Manual,Bdg Soetta (Metro),Bensin,66500000,C
+Honda,HR-V E 1.5,2017,72395,Automatic,Bdg Soetta (Metro),Bensin,151500000,C
+Toyota,INNOVA G 2.0,2012,268362,Automatic,Batam,Bensin,77000000,C
+Toyota,YARIS G 1.5,2017,92925,Automatic,Batam,Bensin,100000000,C
+Toyota,VELOZ 1.5,2022,66285,Manual,Batam,Bensin,160000000,C
+Toyota,INNOVA G LUXURY 2.0,2014,279267,Automatic,Batam,Bensin,135000000,C
+Toyota,INNOVA E 2.0,2011,348877,Automatic,Batam,Bensin,82000000,C
+Toyota,INNOVA G 2.0,2022,134855,Manual,Padang,Bensin,269000000,C
+Toyota,AVANZA G 1.5,2022,151703,Manual,Padang,Bensin,172000000,C
+Toyota,AVANZA G 1.5,2022,152244,Manual,Padang,Bensin,171500000,C
+Toyota,AVANZA G 1.3,2019,129508,Manual,Semarang,Bensin,142000000,C
+Daihatsu,AYLA X 1.0,2022,114195,Manual,Jakarta Raya,Bensin,80000000,C
+Datsun,GO+ T PANCA 1.2,2017,162770,Manual,Jakarta Raya,Bensin,45000000,C
+Daihatsu,SIGRA D 1.0,2023,82489,Manual,Sampit,Bensin,112000000,C
+Isuzu,TRAGA 2.5,2023,39963,Manual,Pekanbaru,Diesel,137000000,C
+Toyota,CALYA E 1.2,2018,164477,Manual,Jakarta Raya,Bensin,85000000,C
+Toyota,AVANZA G 1.5,2022,68130,Manual,Banjarmasin,Bensin,140000000,C
+Honda,FREED S 1.5,2009,188197,Automatic,Semarang,Bensin,72000000,C
+Suzuki,KARIMUN GX 1.0,2014,82856,Manual,Yogyakarta,Bensin,35000000,C
+Toyota,AVANZA G 1.5,2022,103038,Manual,Semarang,Bensin,140000000,C
+Honda,MOBILIO E 1.5,2014,123163,Automatic,Padang,Bensin,97000000,C
+Suzuki,APV GA 1.5,2017,280908,Manual,Jakarta Raya,Bensin,62000000,C
+Honda,HR-V E 1.5,2016,94503,Automatic,Makassar,Bensin,154000000,C
+Toyota,CALYA G 1.2,2020,92890,Manual,Padang,Bensin,99000000,C
+Mitsubishi,XPANDER EXCEED 1.5,2022,128485,Automatic,Lampung,Bensin,172000000,C
+Nissan,JUKE 1.5,2014,159046,Automatic,Batam,Bensin,48000000,C
+Toyota,AVANZA E 1.3,2017,289521,Manual,Jambi,Bensin,100000000,C
+Mitsubishi,XPANDER GLS 1.5,2021,134829,Automatic,Jakarta Raya,Bensin,165000000,C
+Hyundai,SANTA FE 2.4,2015,129847,Automatic,Makassar,Bensin,110000000,C
+Honda,BRIO SATYA E 1.2,2017,90482,Automatic,Jakarta Raya,Bensin,103000000,C
+Daihatsu,XENIA R 1.3,2012,88785,Manual,Padang,Bensin,95000000,C
+Toyota,CALYA G 1.2,2021,101875,Automatic,Jakarta Raya,Bensin,102000000,C
+Toyota,FORTUNER VRZ 2.4,2021,82264,Automatic,Kendari,Diesel,342000000,C
+Mitsubishi,XPANDER GLS 1.5,2021,114397,Automatic,Jakarta Raya,Bensin,165000000,C
+Toyota,YARIS S 1.5,2017,129401,Automatic,Batam,Bensin,133000000,C
+Daihatsu,XENIA R 1.3,2014,161605,Automatic,Batam,Bensin,98000000,C
+Honda,MOBILIO E 1.5,2014,117182,Automatic,Batam,Bensin,94000000,C
+Toyota,FORTUNER 2.4 G (4X4),2020,149450,Automatic,Makassar,Diesel,256000000,C
+Toyota,AVANZA VELOZ 1.5,2013,265537,Manual,Jakarta Raya,Bensin,94000000,C
+Daihatsu,GRAN MAX BV 1.3,2017,132347,Manual,Tegal,Bensin,89000000,C
+Toyota,FORTUNER G (4X4) 2.4,2020,175243,Automatic,Makassar,Diesel,251000000,C
+Honda,CIVIC 1.8,2013,167599,Automatic,Batam,Bensin,121000000,C
+Suzuki,KARIMUN WAGON R GA 1.0,2014,129396,Manual,Yogyakarta,Bensin,45000000,C
+Mitsubishi,COLT T 120 SS PU 1.5,2012,98701,Manual,Tegal,Bensin,27000000,C
+Toyota,AVANZA G 1.5,2013,153899,Manual,Batam,Bensin,64000000,C
+Toyota,AVANZA E 1.3,2018,133784,Manual,Yogyakarta,Bensin,90000000,C
+Hyundai,SANTA FE PRIME 2.5,2023,114540,Automatic,Jakarta Raya,Bensin,350000000,C
+Toyota,AVANZA E 1.3,2016,194397,Manual,Semarang,Bensin,84000000,C
+Toyota,FORTUNER VRZ 2.4,2021,111107,Automatic,Jakarta Raya,Diesel,380000000,C
+Toyota,CAMRY V 2.5,2015,91387,Automatic,Semarang,Bensin,120000000,C
+Toyota,AVANZA G 1.3,2021,95344,Manual,Batam,Bensin,140000000,C
+Hyundai,SANTA FE PRIME 2.5,2023,142873,Automatic,Jakarta Raya,Bensin,350000000,C
+Toyota,AVANZA G 1.3,2021,93507,Manual,Batam,Bensin,140000000,C
+Toyota,AVANZA G 1.3,2016,180391,Manual,Yogyakarta,Bensin,85000000,C
+Daihatsu,XENIA R 1.3,2013,101194,Automatic,Jakarta Raya,Bensin,100000000,C
+Toyota,AVANZA G 1.3,2021,102185,Manual,Batam,Bensin,137000000,C
+Toyota,ALPHARD G 2.5,2018,47583,Automatic,Semarang,Bensin,513000000,C
+Toyota,FORTUNER 2.4 G (4X4),2020,140632,Automatic,Makassar,Diesel,243500000,C
+Toyota,AVANZA G 1.3,2021,107854,Manual,Batam,Bensin,140000000,C
+Toyota,AVANZA VELOZ 1.5,2019,154302,Manual,Jakarta Raya,Bensin,147000000,C
+Toyota,FORTUNER 2.4 G (4X4),2020,141654,Automatic,Makassar,Diesel,242500000,C
+Daihatsu,XENIA R 1.3,2023,151981,Manual,Sampit,Bensin,160000000,C
+Toyota,RUSH G 1.5,2013,285479,Manual,Padang,Bensin,80000000,C
+Daihatsu,SIGRA D 1.0,2024,56421,Manual,Sampit,Bensin,102000000,C
+Mercedes,BENZ E 400 3.0,2014,64962,Automatic,Jakarta Raya,Bensin,350000000,C
+Toyota,HARRIER 2.0,2015,178480,Automatic,Batam,Bensin,150000000,C
+Daihatsu,XENIA Li 1.0,2009,319088,Manual,Manado,Bensin,27000000,D
+Toyota,INNOVA G 2.4,2022,141234,Automatic,Palembang,Diesel,300000000,D
+Toyota,FORTUNER G 2.5,2012,172276,Manual,Palembang,Diesel,162000000,D
+Daihatsu,SIGRA D 1.0,2022,49389,Manual,Pontianak,Bensin,89000000,D
+Toyota,CALYA G 1.2,2017,434344,Automatic,Palembang,Bensin,60000000,D
+Toyota,HILUX E DC (4X4) 2.4,2022,59113,Manual,Medan,Diesel,150000000,D
+Honda,ODYSSEY 2.4,2012,123604,Automatic,Jakarta Raya,Bensin,97500000,D
+Toyota,TRANSMOVER 1.3,2019,135392,Manual,Pontianak,Bensin,79000000,D
+Suzuki,CARRY ST 150 PICK UP BOX 1.5,2012,191451,Manual,Medan,Bensin,35000000,D
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2022,60917,Manual,Balikpapan,Diesel,149000000,D
+Toyota,HILUX DC G 2.4,2023,109336,Manual,Balikpapan,Diesel,300000000,D
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2020,85850,Manual,Balikpapan,Diesel,122000000,D
+Faw,HD380CG 9.7,2023,70623,Manual,Samarinda,Diesel,280000000,D
+Toyota,HILUX DC G 2.4,2023,212974,Manual,Balikpapan,Diesel,295000000,D
+Honda,MOBILIO S 1.5,2017,172449,Manual,Medan,Bensin,70000000,D
+Chevrolet,CAPTIVA LT 2.4,2008,85987,Automatic,Medan,Bensin,30000000,D
+Hyundai,H-1 2.4,2015,269899,Automatic,Gedangan,Bensin,95000000,D
+Isuzu,D-MAX DC 2.5,2021,69033,Manual,Balikpapan,Diesel,145000000,D
+Honda,ODYSSEY 2.4,2011,139137,Automatic,Jakarta - Tipar,Bensin,89500000,D
+Daihatsu,LUXIO X 1.5,2018,167495,Manual,Malang,Bensin,138000000,D
+Hino,FM 280 JD 7.7,2023,119265,Manual,Palembang,Diesel,510000000,D
+Hyundai,H-1 2.4,2018,95601,Automatic,Jakarta - Tipar,Bensin,140000000,D
+Isuzu,NLR 55 B Lx 2.8,2021,151064,Manual,Balikpapan,Diesel,335000000,D
+Honda,FREED E 1.5,2010,148636,Automatic,Medan,Bensin,77000000,D
+Mitsubishi,FUSO FN 62F HD,2018,177253,Manual,Palembang,Diesel,280000000,D
+Wuling,CONFERO DB 1.5,2022,62491,Manual,Pangkal_Pinang,Bensin,65000000,D
+Hino,136 HD 4.0,2022,94293,Manual,Medan,Diesel,225000000,D
+Mercedes,BENZ B 170 1.7,2009,101289,Automatic,Gedangan,Bensin,90000000,D
+Isuzu,D-MAX DC (4X4) 1.9,2022,97349,Manual,Balikpapan,Diesel,185000000,D
+Isuzu,D-MAX DC (4X4) 1.9,2022,84786,Manual,Balikpapan,Diesel,180000000,D
+Isuzu,D-MAX DC (4X4) 1.9,2022,124783,Manual,Balikpapan,Diesel,180000000,D
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2021,113062,Manual,Balikpapan,Diesel,170000000,D
+Isuzu,FVZ N HP 7.8,2022,90378,Manual,Palembang,Diesel,400000000,D
+Daihatsu,SIGRA M 1.0,2022,244470,Manual,Jember,Bensin,80000000,D
+Toyota,COROLLA ALTIS G 1.8,2003,395394,Manual,Gedangan,Bensin,30000000,D
+Nissan,SERENA HIGWAY STAR 2.0,2013,136922,Automatic,Gedangan,Bensin,100000000,D
+Daihatsu,SIGRA D 1.0,2022,231632,Manual,Gedangan,Bensin,55000000,D
+Honda,ACCORD VTI-L 2.4,2005,208049,Automatic,Jakarta Raya,Bensin,48000000,D
+Bmw,740 LI 3.0,2018,77934,Automatic,Gedangan,Bensin,393500000,D
+Chevrolet,SPIN LTZ 1.3,2015,151221,Manual,Surabaya,Diesel,35000000,D
+Daihatsu,XENIA M 1.0,2013,265009,Manual,Malang,Bensin,50000000,D
+Hino,R260 7.7,2018,639743,Manual,Gedangan,Diesel,650000000,D
+Mitsubishi,COLT DIESEL FE 84 G,2019,98407,Manual,Gedangan,Diesel,375000000,D
+Isuzu,NQR 71 4.6,2020,9999999,Manual,Gedangan,Diesel,435000000,D
+Isuzu,NLR 55 B Lx 2.8,2021,110141,Manual,Gedangan,Diesel,330000000,D
+Toyota,VIOS G 1.5,2012,164546,Automatic,Denpasar,Bensin,45000000,D
+Suzuki,AERIO 1.5,2006,244347,Manual,Denpasar,Bensin,29000000,D
+Toyota,INNOVA G 2.0,2022,44635,Manual,Malang,Bensin,237500000,D
+Mitsubishi,PAJERO SPORT EXCEED 2.5,2013,146536,Automatic,Jakarta - Tipar,Diesel,175000000,D
+Datsun,GO+ T PANCA 1.2,2016,193738,Manual,Batam,Bensin,41000000,D
+Honda,CR-V 2.4,2013,105778,Automatic,Batam,Bensin,105000000,D
+Honda,CR-V 2.4,2014,157650,Automatic,Batam,Bensin,130000000,D
+Toyota,INNOVA V 2.0,2015,317844,Manual,Palangkaraya,Bensin,134000000,D
+Toyota,AGYA G 1.0,2014,137859,Manual,Pekanbaru,Bensin,72000000,D
+Datsun,GO PANCA T 1.2,2017,112809,Manual,Pare Pare,Bensin,40000000,D
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2016,148521,Manual,Banjarmasin,Diesel,107000000,D
+Toyota,AVANZA E 1.3,2018,293361,Manual,Banjarmasin,Bensin,81000000,D
+Suzuki,SX4 X-OVER 1.5,2012,233320,Manual,Padang,Bensin,65000000,D
+Wuling,CONFERO 1.5,2022,290574,Manual,Padang,Bensin,67000000,D
+Daihatsu,SIGRA M 1.0,2017,218648,Manual,Jakarta Raya,Bensin,67000000,D
+Volkswagen,POLO TSI 1.2,2020,57458,Automatic,Yogyakarta,Bensin,145000000,D
+Toyota,HIACE COMMUTER,2020,143171,Manual,Yogyakarta,Diesel,397000000,D
+Toyota,FORTUNER G (4X4) 2.4,2020,192760,Automatic,Makassar,Diesel,251000000,D
+Land,ROVER RANGE ROVER EVOQUE 2.0,2012,93502,Automatic,Semarang,Bensin,171000000,D
+Toyota,FORTUNER 2.4 G (4X4),2020,161243,Automatic,Makassar,Diesel,257000000,D
+Toyota,FORTUNER G (4X4) 2.4,2020,99058,Automatic,Makassar,Diesel,242000000,D
+Daihatsu,GRAN MAX PU AC PS 1.5,2018,112943,Manual,Pekanbaru,Bensin,59000000,D
+Mitsubishi,PAJERO SPORT GLX (4X4) 2.5,2018,99538,Manual,Kendari,Diesel,200000000,D
+Toyota,FORTUNER 2.4 G (4X4),2020,156171,Automatic,Makassar,Diesel,251500000,D
+Toyota,AGYA G 1.0,2016,93157,Manual,Pekanbaru,Bensin,75000000,D
+Toyota,FORTUNER G (4X4) 2.4,2020,145943,Automatic,Makassar,Diesel,242000000,D
+Toyota,FORTUNER 2.4 G (4X4),2020,188933,Automatic,Makassar,Diesel,252000000,D
+Toyota,FORTUNER 2.4 G (4X4),2020,138581,Automatic,Makassar,Diesel,252500000,D
+Toyota,FORTUNER 2.4 G (4X4),2020,164063,Automatic,Makassar,Diesel,243500000,D
+Daihatsu,XENIA X 1.3,2015,109892,Manual,Yogyakarta,Bensin,54000000,D
+Toyota,FORTUNER 2.4 G (4X4),2020,139220,Automatic,Makassar,Diesel,251500000,D
+Mercedes,BENZ CLA 200 1.6,2015,70965,Automatic,Yogyakarta,Bensin,186000000,D
+Toyota,CAMRY V 2.5,2019,124112,Automatic,Jakarta Raya,Bensin,220000000,D
+Mercedes,BENZ C 200 1.8,2011,98675,Automatic,Yogyakarta,Bensin,78000000,D
+Toyota,FORTUNER 2.4 G (4X4),2020,153128,Automatic,Makassar,Diesel,245500000,D
+Nissan,X TRAIL XT 2.5,2011,165950,Automatic,Batam,Bensin,91000000,D
+Toyota,FORTUNER 2.4 G (4X4),2020,127270,Automatic,Makassar,Diesel,247000000,D
+Hummer,H3 3.7,2011,63066,Automatic,Semarang,Bensin,537500000,D
+Daihatsu,GRAN MAX PICK UP BOX 1.5,2009,389994,Manual,Jakarta Raya,Diesel,46000000,D
+Komatsu,HB365-1,2023,3,Automatic,Pal 8,Diesel,1235000000,D
+Isuzu,NKR 55 C/O 2.8,2017,387606,Manual,Jakarta Raya,Diesel,146000000,D
+Toyota,AVANZA S 1.5,2011,194706,Automatic,Batam,Bensin,75000000,D
+Mazda,2 SPORTS 1.5,2012,294574,Automatic,Jakarta Raya,Bensin,64000000,D
+Nissan,GRAND LIVINA XV 1.5,2012,202647,Automatic,Jakarta Raya,Bensin,57000000,D
+Toyota,RUSH S 1.5,2013,142689,Automatic,Jakarta Raya,Bensin,97000000,D
+Daihatsu,SIGRA X 1.2,2022,49871,Manual,Sampit,Bensin,109000000,D
+Nissan,GRAND LIVINA XV 1.5,2010,137586,Automatic,Jakarta Raya,Bensin,56000000,D
+Chevrolet,TRAX LTZ 1.4,2017,117268,Automatic,Jakarta Raya,Bensin,85000000,D
+Toyota,DYNA 110 FT 4.0,2012,386377,Manual,Balikpapan,Diesel,55000000,D
+Isuzu,NMR 71 HD 5.8,2022,425170,Manual,Denpasar,Diesel,242500000,D
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2022,172392,Manual,Balikpapan,Diesel,142000000,D
+Hino,110 LD 4.0,2021,45363,Manual,Medan,Diesel,210000000,D
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2021,134149,Manual,Balikpapan,Diesel,135000000,D
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2022,59106,Manual,Balikpapan,Diesel,159000000,D
+Honda,JAZZ 1.5,2009,230346,Manual,Padang,Bensin,81000000,D
+Kia,GRAND SEDONA 3.3,2017,94814,Automatic,Bdg Soetta (Metro),Bensin,207000000,D
+Mitsubishi,TRITON DC GLS 4X4 2.4,2023,156079,Manual,Balikpapan,Diesel,250000000,D
+Daihatsu,AYLA D 1.0,2018,96651,Manual,Bdg Soetta (Metro),Bensin,57000000,D
+Hyundai,AVEGA 1.5,2010,143402,Manual,Bdg Soetta (Metro),Bensin,36000000,D
+Mitsubishi,PAJERO SPORT GLX (4X4) 2.5,2021,169797,Manual,Berau,Diesel,220000000,D
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2022,132360,Manual,Berau,Diesel,130000000,D
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2021,127592,Manual,Berau,Diesel,115000000,D
+Isuzu,D-MAX DC (4X4) 1.9,2022,88384,Manual,Balikpapan,Diesel,175000000,D
+Isuzu,NMR 81 4.8,2023,116970,Manual,Cirebon,Diesel,240000000,D
+Ford,ECOSPORT TITANIUM 1.5,2014,91836,Automatic,Jakarta - Tipar,Bensin,75000000,D
+Toyota,HILUX SC 2.4,2022,21016,Manual,Jakarta - Tipar,Diesel,162000000,D
+Mitsubishi,XPANDER ULTIMATE 1.5,2020,176360,Automatic,Jakarta - Tipar,Bensin,167000000,D
+Datsun,CROSS 1.2,2018,130509,Automatic,Jakarta - Tipar,Bensin,64000000,D
+Nissan,GRAND LIVINA XV 1.5,2017,149915,Automatic,Jakarta - Tipar,Bensin,82000000,D
+Daihatsu,SIGRA X 1.2,2017,151443,Automatic,Jakarta - Tipar,Bensin,88000000,D
+Toyota,AVANZA S 1.5,2010,111202,Automatic,Jakarta - Tipar,Bensin,73000000,D
+Honda,JAZZ E 1.5,2011,96099,Automatic,Jakarta - Tipar,Bensin,84000000,D
+Isuzu,FVZ U HP 7.8,2023,70175,Manual,Kendari,Diesel,535000000,D
+Isuzu,FVZ U HP 7.8,2023,83806,Manual,Kendari,Diesel,535000000,D
+Isuzu,FVZ U HP 7.8,2023,51613,Manual,Kendari,Diesel,520000000,D
+Suzuki,SWIFT ST 1.5,2011,168078,Manual,Jakarta - Tipar,Bensin,46000000,D
+Wuling,CONFERO DB 1.5,2023,106176,Manual,Medan,Bensin,70000000,D
+Nissan,SERENA HIGWAY STAR 2.0,2012,157490,Automatic,Jakarta - Tipar,Bensin,72000000,D
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2021,120380,Manual,Balikpapan,Diesel,194000000,D
+Mitsubishi,TRITON SC HDX (4X4) 2.5,2021,97391,Manual,Balikpapan,Diesel,209000000,D
+Daihatsu,XENIA R 1.3,2015,206215,Manual,Lampung,Bensin,98000000,D
+Suzuki,CARRY CL PICK UP 1.5,2023,26261,Manual,Sampit,Bensin,65000000,D
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2018,69251,Manual,Jakarta Raya,Diesel,140000000,D
+Honda,ACCORD VTI-L 2.4,2011,124329,Automatic,Pal 8,Bensin,88000000,D
+Hyundai,H-1 2.4,2012,747970,Automatic,Jakarta Raya,Bensin,54500000,D
+Bmw,X1 SDRIVE 2.0,2012,120132,Automatic,Banjarmasin,Bensin,129500000,D
+Toyota,DYNA 110 FT 4.0,2013,253630,Manual,Malang,Diesel,88500000,D
+Daihatsu,TERIOS TX 1.5,2007,214823,Manual,Denpasar,Bensin,78500000,D
+Suzuki,SPLASH 1.2,2011,162723,Manual,Denpasar,Bensin,58500000,D
+Isuzu,NMR 81 4.8,2022,104083,Manual,Lampung,Diesel,250000000,D
+Isuzu,NMR71T HD,2019,166836,Manual,Denpasar,Diesel,240000000,D
+Isuzu,NKR 71 HD 4.6,2014,999999,Manual,Denpasar,Diesel,183000000,D
+Mitsubishi,COLT DIESEL FE 74,2013,907200,Manual,Jambi,Diesel,170000000,D
+Mitsubishi,FE 84 84 G BC 3.9,2017,161148,Manual,Jakarta Raya,Diesel,290000000,D
+Mitsubishi,FUSO FN62F HD,2019,192859,Manual,Jakarta Raya,Diesel,225000000,D
+Honda,CITY 1.5,2007,198992,Automatic,Jakarta Raya,Bensin,30000000,D
+Mitsubishi,FN 527 ML,2021,563223,Manual,Jakarta Raya,Diesel,225000000,D
+Chevrolet,SPIN LTZ 1.5,2013,194107,Automatic,Jakarta Raya,Bensin,48000000,D
+Mitsubishi,PAJERO SPORT DAKAR 2.4,2021,101611,Automatic,Gedangan,Diesel,370000000,E
+Volvo,XC60 T5 2.0,2012,151865,Automatic,Jakarta Raya,Bensin,50000000,E
+Toyota,INNOVA G LUXURY 2.0,2008,413919,Manual,Gorontalo,Bensin,54000000,E
+Mitsubishi,TRITON DC GLS 4X4 2.4,2023,61523,Manual,Balikpapan,Diesel,260000000,E
+Mitsubishi,FUSO FN62F HD,2019,264854,Manual,Palembang,Diesel,300000000,E
+Toyota,HIACE COMMUTER 2.5,2019,108388,Manual,Gedangan,Diesel,300000000,E
+Toyota,INNOVA V 2.0,2009,315446,Manual,Samarinda,Bensin,48000000,E
+Mitsubishi,FN 527 ML (6X4) 7.5,2019,105019,Manual,Palembang,Diesel,370000000,E
+Toyota,CAMRY V 2.4,2008,221383,Automatic,Gedangan,Bensin,45500000,E
+Toyota,AVANZA S 1.5,2011,234845,Manual,Samarinda,Bensin,41000000,E
+Daihatsu,SIRION 1.3,2016,240033,Automatic,Pangkal_Pinang,Bensin,71000000,E
+Faw,HD380CG 9.7,2023,63442,Manual,Palembang,Diesel,190000000,E
+Suzuki,CARRY ST 150 PICK UP 1.5,2015,86502,Manual,Medan,Bensin,30000000,E
+Daihatsu,TERIOS TS 1.5,2012,144660,Automatic,Jakarta Raya,Bensin,60000000,E
+Honda,BRIO SATYA E 1.2,2015,108411,Manual,Malang,Bensin,62000000,E
+Bmw,X3 XDRIVE 2.5,2009,89500,Automatic,Malang,Bensin,55000000,E
+Chevrolet,CAPTIVA 2.4,2011,226772,Automatic,Batam,Bensin,38000000,E
+Hino,136 HDX 4.0,2023,136837,Manual,Banjarmasin,Diesel,120000000,E
+Daihatsu,GRAN MAX PU AC PS 1.5,2024,46985,Manual,Palopo,Bensin,90000000,E
+Datsun,GO+ T PANCA 1.2,2016,157183,Manual,Kendari,Bensin,37000000,E
+Toyota,CALYA G 1.2,2018,254694,Manual,Purwokerto,Bensin,71000000,E
+Toyota,CALYA 1.2 E M/T,2019,177469,Manual,Semarang,Bensin,81000000,E
+Mitsubishi,FIGHTER X FN62F HD R 7.5,2022,21254,Manual,Makassar,Diesel,450000000,E
+Mitsubishi,FIGHTER X FN62F HD R 7.5,2022,21136,Manual,Makassar,Diesel,435000000,E
+Toyota,CALYA G 1.2,2018,147051,Automatic,Batam,Bensin,93000000,E
+Honda,BRIO S 1.2,2015,131250,Manual,Yogyakarta,Bensin,57500000,E
+Toyota,FORTUNER G (4X4) 2.4,2020,141431,Automatic,Makassar,Diesel,252000000,E
+Toyota,FORTUNER 2.4 G (4X4),2020,144394,Automatic,Makassar,Diesel,252000000,E
+Toyota,FORTUNER 2.4 G (4X4),2020,153316,Automatic,Makassar,Diesel,243500000,E
+Suzuki,APV ARENA GL 1.5,2012,183580,Manual,Sampit,Bensin,65000000,E
+Suzuki,APV SGX 1.5,2013,142539,Manual,Jakarta Raya,Bensin,59000000,E
+Toyota,AVANZA G 1.3,2013,496586,Manual,Banjarmasin,Bensin,56000000,E
+Toyota,AVANZA E 1.3,2009,344136,Manual,Banjarmasin,Bensin,38000000,E
+Nissan,JUKE 1.5,2014,199040,Automatic,Jakarta Raya,Bensin,101000000,E
+Mercedes,BENZ GL 400 3.0,2015,108876,Automatic,Jakarta Raya,Bensin,355500000,E
+Mitsubishi,FUSO FN 62F HD,2019,25961,Manual,Jakarta Raya,Diesel,320000000,E
+Isuzu,PANTHER PU 2.5,2006,277426,Manual,Samarinda,Diesel,37000000,E
+Toyota,DYNA 130 HT 4.0,2012,5664,Manual,Pontianak,Diesel,98000000,E
+Toyota,AVANZA G 1.3,2006,263917,Manual,Jambi,Bensin,52000000,E
+Honda,JAZZ RS 1.5,2009,216547,Automatic,Makassar,Bensin,69000000,E
+Daihatsu,SIGRA M 1.0,2017,201782,Manual,Jakarta - Tipar,Bensin,72000000,E
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2022,95639,Manual,Balikpapan,Diesel,142000000,E
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2021,109405,Manual,Berau,Diesel,105000000,E
+Nissan,TEANA 2.5,2011,148721,Automatic,Cirebon,Bensin,59000000,E
+Mitsubishi,FN 527 MS,2016,273423,Manual,Bdg Soetta (Metro),Diesel,305000000,E
+Daihatsu,TERIOS X 1.5,2020,217901,Manual,Jakarta - Tipar,Bensin,112000000,E
+Mitsubishi,FIGHTER X FN62F HD R 7.5,2023,45003,Manual,Samarinda,Diesel,350000000,E
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2021,157489,Manual,Palembang,Diesel,240000000,E
+Suzuki,APV GL 1.5,2009,705728,Manual,Lampung,Bensin,49000000,E
+Suzuki,APV GL 1.5,2011,603383,Manual,Pekanbaru,Bensin,55500000,E
+Honda,CR-V 2.0,2010,148138,Automatic,Banjarmasin,Bensin,92500000,E
+Suzuki,APV ARENA GL 1.5,2010,330131,Manual,Jakarta - Tipar,Bensin,53000000,E
+Nissan,GRAND LIVINA XV 1.5,2011,291686,Automatic,Malang,Bensin,51000000,E
+Mitsubishi,FUSO FN 627,2012,162629,Manual,Gedangan,Diesel,138000000,E
+Mitsubishi,FE 74 S 3.9,2012,999999,Manual,Gedangan,Diesel,172000000,E
+Isuzu,NKR 71 4.6,2013,999999,Manual,Denpasar,Diesel,160500000,E
+Isuzu,NMR 81 4.8,2022,999999,Manual,Jakarta - Tipar,Diesel,322000000,E
+Toyota,DYNA 110 ET 4.0,2015,32876,Manual,Jakarta Raya,Diesel,90000000,E
+Volkswagen,GOLF 1.4,2013,120553,Automatic,Jakarta Raya,Bensin,55000000,E
+Toyota,AVANZA G 1.3,2011,59863,Manual,Manado,Bensin,59000000,F
+Suzuki,IGNIS GX 1.2,2017,210717,Automatic,Manado,Bensin,75000000,F
+Wuling,CONFERO S 1.5,2019,195925,Manual,Manado,Bensin,74000000,F
+Toyota,FORTUNER G 2.7,2013,999999,Automatic,Balikpapan,Bensin,122000000,F
+Toyota,AVANZA E 1.3,2017,185428,Manual,Pontianak,Bensin,88000000,F
+Nissan,MARCH 1.2,2013,999999999,Manual,Gorontalo,Bensin,25000000,F
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2016,242564,Manual,Gedangan,Diesel,70000000,F
+Toyota,INNOVA G 2.0,2009,684798,Manual,Gorontalo,Bensin,51000000,F
+Suzuki,XL 7 ALPHA 1.5,2025,999999,Automatic,Denpasar,Bensin,90000000,F
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2017,999999999,Manual,Gorontalo,Diesel,60000000,F
+Toyota,HIACE COMMUTER 2.5,2014,925256,Manual,Malang,Diesel,150000000,F
+Toyota,HILUX G DC (4X4) 2.5,2012,251311,Manual,Palangkaraya,Diesel,80000000,F
+Mitsubishi,TRITON DC GLS 4X4 2.4,2022,164675,Manual,Palangkaraya,Diesel,175000000,F
+Mitsubishi,XPANDER EXCEED 1.5,2023,26581,Automatic,Balikpapan,Bensin,133000000,F
+Toyota,LAND CRUISER VX 4.5,2013,999999,Automatic,Jakarta - Tipar,Diesel,51000000,F
+Suzuki,ERTIGA GX 1.4,2013,231,Manual,Medan,Bensin,53000000,F
+Suzuki,FRONX GL 1.5,2025,9,Automatic,Medan,Bensin,170000000,F
+Daihatsu,TERIOS X 1.5,2024,91758,Manual,Denpasar,Bensin,150000000,F
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2018,175600,Manual,Medan,Diesel,155000000,F
+Mitsubishi,XPANDER ULTIMATE 1.5,2021,999999,Automatic,Denpasar,Bensin,155000000,F
+Daihatsu,SIGRA R 1.2,2022,174892,Manual,Malang,Bensin,85000000,F
+Volkswagen,TIGUAN 1.4,2014,138029,Automatic,Gedangan,Bensin,45000000,F
+Ford,FIESTA S 1.6,2011,114151,Automatic,Denpasar,Bensin,22000000,F
+Peugeot,5008 1.6,2012,999999,Automatic,Jakarta - Tipar,Bensin,65000000,F
+Toyota,AVANZA G 1.3,2009,269757,Manual,Pangkal_Pinang,Bensin,40000000,F
+Mazda,CX-9 3.7,2013,999999,Automatic,Semarang,Bensin,71000000,F
+Isuzu,FVZ U HP 7.8,2023,999999,Manual,Jambi,Diesel,418500000,F
+Toyota,AVANZA G 1.3,2010,523417,Manual,Palu,Bensin,34000000,F
+Mitsubishi,FUSO FN62F HD,2019,193426,Manual,Pekanbaru,Diesel,367000000,F
+Suzuki,ERTIGA GX 1.5,2024,999999,Manual,Pare Pare,Bensin,95000000,F
+Toyota,INNOVA G 2.0,2011,999999,Manual,Sampit,Bensin,67000000,F
+Mitsubishi,PAJERO SPORT GLS 2.5,2012,302313,Manual,Sampit,Diesel,129000000,F
+Hino,FM 260 JD 7.7,2017,99999999,Manual,Pare Pare,Diesel,125000000,F
+Nissan,X TRAIL XT 2.5,2014,128402,Automatic,Batam,Bensin,68000000,F
+Suzuki,BALENO 1.5,2002,207546,Manual,Palu,Bensin,31000000,F
+Mitsubishi,PAJERO SPORT GLX (4X4) 2.5,2017,151712,Manual,Tegal,Diesel,168000000,F
+Mitsubishi,COLT DIESEL FE 71 3.9,2014,999999,Manual,Semarang,Diesel,98000000,F
+Toyota,FORTUNER 2.4 G (4X4),2020,158481,Automatic,Makassar,Diesel,251500000,F
+Suzuki,CARRY CL PICK UP 1.5,2024,999999,Manual,Tegal,Bensin,65000000,F
+Mini,COOPER S COUNTRYMAN 1.6,2011,49457,Automatic,Semarang,Bensin,135000000,F
+Mercedes,BENZ E 200 CGI 1.8,2012,62485,Automatic,Semarang,Bensin,91000000,F
+Wuling,CONFERO DB 1.5,2022,999999,Manual,Semarang,Bensin,57000000,F
+Mercedes,BENZ S 350 L,2012,99016,Automatic,Tegal,Bensin,143000000,F
+Toyota,INNOVA V 2.0,2013,154410,Manual,Sampit,Bensin,103000000,F
+Daihatsu,GRAN MAX PU 1.3,2021,86589,Manual,Sampit,Bensin,64000000,F
+Daihatsu,XENIA M 1.0,2015,145827,Manual,Jakarta Raya,Bensin,68000000,F
+Land,ROVER VOGUE 3.0,2014,50899,Automatic,Jakarta Raya,Bensin,586000000,F
+Mercedes,BENZ C 200 1.8,2013,280757,Automatic,Jakarta Raya,Bensin,84000000,F
+Mercedes,BENZ E 200 1.8,2010,999999,Automatic,Jakarta Raya,Bensin,69000000,F
+Mercedes,BENZ E 250 1.8,2011,139835,Automatic,Jakarta Raya,Bensin,95000000,F
+Audi,A6 FSI 2.8,2012,216888,Automatic,Jakarta Raya,Bensin,79000000,F
+Bmw,520i CKD 2.0,2023,22109,Automatic,Jakarta Raya,Bensin,686000000,F
+Mercedes,BENZ E 300 3.0,2013,94098,Automatic,Jakarta Raya,Bensin,159000000,F
+Mitsubishi,CANTER FE 71L 3.9,2022,461371,Manual,Jakarta Raya,Diesel,300000000,F
+Land,ROVER RANGE ROVER 5.0,2012,118165,Automatic,Bdg Soetta (Metro),Bensin,340000000,F
+Ford,RANGER SC BASE (4X4) 2.2,2014,100296,Manual,Jakarta Raya,Diesel,65000000,F
+Mitsubishi,FUSO FN62F HD,2019,999999,Manual,Jakarta Raya,Diesel,135000000,F
+Mitsubishi,XPANDER EXCEED 1.5,2023,58767,Automatic,Jakarta Raya,Bensin,125000000,F
+Toyota,ETIOS G 1.2,2014,124253,Manual,Jakarta Raya,Bensin,30000000,F
+Suzuki,APV BLIND VAN 1.5,2019,108259,Manual,Jakarta Raya,Bensin,48000000,F
+Datsun,GO+ T PANCA 1.2,2014,999999,Manual,Semarang,Bensin,31000000,F
+Daihatsu,SIGRA R 1.2,2024,999999,Manual,Sampit,Bensin,150000000,F
+Toyota,CALYA E 1.2,2017,999999,Manual,Semarang,Bensin,45000000,F
+Mitsubishi,FN 527 ML,2019,999999,Manual,Makassar,Diesel,205000000,F
+Toyota,INNOVA ZENIX G 2.0,2023,999999,Automatic,Denpasar,Bensin,205000000,F
+Toyota,RUSH G 1.5,2009,999999,Manual,Gorontalo,Bensin,30000000,F
+Mitsubishi,TRITON SC HDX (4X4) 2.5,2021,76834,Manual,Manado,Diesel,125000000,F
+Mitsubishi,COLT DIESEL FE SUPER HDX,2015,999999,Manual,Mataram,Diesel,217000000,F
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2018,162081,Manual,Pare Pare,Diesel,102000000,F
+Mitsubishi,TRITON DC HDX (4X4) 2.5,2021,150761,Manual,Berau,Diesel,105000000,F
+Toyota,HARRIER 2.0,2015,139807,Automatic,Bdg Soetta (Metro),Bensin,225000000,F
+Hino,FB 130 4.0,2015,205194,Manual,Balikpapan,Diesel,95000000,F
+Nissan,GRAND LIVINA SV 1.5,2012,135908,Automatic,Jakarta - Tipar,Bensin,47000000,F
+Mitsubishi,FIGHTER X FN62F HD R 7.5,2023,999999,Manual,Jambi,Diesel,660000000,F
+Daihatsu,SIGRA R 1.2,2023,999999,Automatic,Semarang,Bensin,166000000,F
+Toyota,HILUX E DC (4X4) 2.4,2023,999999,Manual,Jambi,Diesel,336000000,F
+Ud,TRUCKS GKE 280 7.7,2019,999999,Manual,Tegal,Diesel,166000000,F
+Honda,JAZZ RS 1.5,2014,999999,Automatic,Jambi,Bensin,88000000,F
+Daihatsu,GRAN MAX PU BOX 1.3,2020,220371,Manual,Manado,Bensin,70000000,F
+Kia,BIG UP 2.7,2019,999999,Manual,Semarang,Diesel,93000000,F
+Mitsubishi,TRITON SC HDX (4X4) 2.5,2021,124873,Manual,Pontianak,Diesel,220000000,F
+Suzuki,APV GE 1.5,2011,220281,Manual,Lampung,Bensin,48000000,F
+Honda,JAZZ 1.5,2006,126744,Automatic,Medan,Bensin,58000000,F
+Isuzu,NMR 71 HD 5.8,2018,999999,Manual,Jambi,Diesel,134000000,F
+Mitsubishi,COLT DIESEL FE 74 HD 3.9,2022,77717,Manual,Bengkulu,Diesel,253500000,F
+Mitsubishi,COLT DIESEL FE 74 HD 3.9,2014,401283,Manual,Jakarta - Tipar,Diesel,179000000,F
+Mitsubishi,FN 527 ML (6X4) 7.5,2010,235961,Manual,Jakarta Raya,Diesel,258000000,F
+Isuzu,NKR 71 HD 4.6,2013,999999,Manual,Denpasar,Diesel,160000000,F
+Isuzu,NKR 71 HD 4.6,2012,169357,Manual,Surabaya,Diesel,97000000,F
+Mitsubishi,COLT DIESEL FE 71 L,2017,316476,Manual,Jakarta Raya,Diesel,174000000,F
+Nissan,X-TRAIL XT 2.5,2010,150554,Automatic,Jakarta Raya,Bensin,51000000,F
+Hino,FM 285 JD 7.7,2013,166234,Manual,Jakarta Raya,Diesel,150000000,F
+Mercedes,BENZ S 350 L 3.5,2011,105990,Automatic,Bdg Soetta (Metro),Bensin,76000000,F
